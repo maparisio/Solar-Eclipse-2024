@@ -1,14 +1,86 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: Verdana;
+  background-image: url("eclipse-background-2.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 }
 
-#map,
 body,
 html {
   height: 100%;
 }
 
+p {text-align: center;
+  width: 90%;
+  margin: 0;
+  padding: 30px;
+}
+
+h2 {text-align: center;
+  padding: 30px;
+  font-size: 200%
+  }
+
+section {
+  padding: 30px;
+  margin: 50px;
+  background-color: rgba(0,0,0,.6);
+}
+
 #title {
-  font-size: 300%
+  font-size: 300%;
+  text-align: center;
+  color: yellow;
+  background-color: rgba(0,0,0,.6);
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#opening {
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  background-color: rgba(0,0,0,.6);
+}
+
+#map {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chart1 {
+  float: left;
+  margin-left: 5%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 45%;
+}
+
+#chart1p {
+  float: right;
+  margin-right: 5%;
+  margin-top: 0px;
+  width: 45%;
+  background-color: rgba(0,0,0,.6);
+}
+
+#chart2 {
+  float: right;
+  margin-right: 5%;
+  margin-top: 50px;
+  width: 45%;
+}
+
+#chart2p {
+  float: left;
+  margin-left: 5%;
+  margin-top: 50px;
+  width: 45%;
+  background-color: rgba(0,0,0,.6);
 }
