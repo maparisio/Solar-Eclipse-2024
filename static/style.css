@@ -30,6 +30,7 @@ section {
   padding: 30px;
   margin: 50px;
   background-color: rgba(0,0,0,.6);
+  margin-top: 50px;
 }
 
 #title {
@@ -50,7 +51,7 @@ section {
 
 #map {
   height: 800px;
-  width: 1000px;
+  width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,4 +85,15 @@ section {
   margin-top: 50px;
   width: 45%;
   background-color: rgba(0,0,0,.6);
+}
+
+#video-intro {
+  margin-top: 600px;
+  background-color: rgba(0,0,0,.6);
+}
+
+video {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 850px;
 }
