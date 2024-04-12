@@ -65,6 +65,7 @@ section {
 
 #chart1 {
   float: left;
+  height: 300px;
   margin-left: 5%;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -73,6 +74,7 @@ section {
 
 #chart1p {
   float: right;
+  height: 300px;
   margin-right: 5%;
   margin-top: 0px;
   width: 45%;
@@ -81,6 +83,7 @@ section {
 
 #chart2 {
   float: right;
+  height: 300px;
   margin-right: 5%;
   margin-top: 50px;
   width: 45%;
@@ -88,6 +91,7 @@ section {
 
 #chart2p {
   float: left;
+  height: 300px;
   margin-left: 5%;
   margin-top: 50px;
   width: 45%;
@@ -95,7 +99,7 @@ section {
 }
 
 #video-intro {
-  margin-top: 600px;
+  margin-top: 900px;
   background-color: rgba(0,0,0,.6);
   padding-bottom: 10px;
 }
