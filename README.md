@@ -4,16 +4,15 @@ Project 3
 - By M. Aparisio, H. Heer, M. Smith & L. Vara
 --------------------------------
 
-Note: It is important that if you are going to use this code, the csv files
-are placed in a directory that you can pull them from, idealy a 'Resources' folder
-in the same directory as the Jupyter Notebook files. Otherwise you will have to modify
-that part of the code to read your csv files.
+Note: It is important that if you are going to use this code, all files
+are placed in a directory that matches this repository, for the better functionality of it.
+Otherwise you would have to adjust the paths on the files, accordingly.
 
-This repository consists of a Team Project using Jupyter Notebook:
+This repository consists of a Team Project were we explore the path of the Solar Eclipse observed on April 8th, 2024 across the United States:
 ---------------------------------
 INDEX
 ---------------------------------
-1. Analysis and Link to Slide Presentation
+1. Analysis & Slide Presentation 
 2. Content of the repository
 3. Instructions for the Project
 4. References
@@ -21,114 +20,74 @@ INDEX
 ---------------------------------
 Analysis & Slide Presentation
 ---------------------------------
-- Space Missions Over Time Analysis Report: https://docs.google.com/document/d/1LXfqi8nnqv8FLbiWnFYCIZ_cI24FpyNkjXM8xtL5IYU/edit?usp=sharing
-- Presentation: https://docs.google.com/presentation/d/1klXu05u3-8OfmkQ52thHnJL7lsWQgRZOKclI1L5tZzM/edit?usp=sharing 
+- ??Solar Ecliplse 04/08/2024 Analysis Report: LINK
+- ??Presentation: LINK 
 
 ---------------------------------
 Content of the repository
 ---------------------------------
-(Clean up of our Data)
-- Final Space Mission Data.ipynb
-- Main Space Missions Project Data First Draft.ipynb
-- Main Space Missions Project Data Second Draft.ipynb
-- alternate_cleaning_solution.ipynb <-- This is another method to extract the 'Country' for the 'Location' cleanup
+- Resources Directory:
+  - Eclipse_Cities_Totality_duration.csv
+  - Eclipse_Citites_Totality_duration.json
+  - Eclipse_Totality_Averages.csv
 
-(Analysis files)
-- Missions_Over_Time.ipynb
-- SP_SuccessFailures_OT.ipynb
-- Space Mission Q1&2.ipynb
-- daynight_analysis.ipynb
-- rocket_usage_analysis.ipynb
-
-Resources Directory
-
-Rocket-Usage-Output Directory (Images from the rocket_usage_analysis analysis)
-
-output_data Directory (Images from Space Mission Q1&2/SP_SuccessFailures_OT/Missions_Over_Time)
-- Fig1.png
-- Fig2.png
-- Fig3.png
-- Fig4.png
-- Fig5.png
-- Fig6.png
-- SuccessFailuresOT.png
-- Ttl_SMOT_ROTW.png
-- Ttl_SMOT_TOP3.png
-- Ttl_SMOT_USA.png
-- Ttl_SMOT_World.png
-- Ttl_SP_vs_Budget1.png
-- Ttl_SP_vs_Budget2.png
-
-output_folder Directory(Images from daynight_analysis)
-- day_night_launches.png
+- static Directory:
+  - Cities_Outside_Totality.csv
+  - Cities_Outside_Totality.geojson
+  - Cities_Outisde_Totality.json
+  - Cleanning_Ttl_E_duration.ipynb  <-- This file helped with calculation on the duration of the Total Eclipse and how many States had Total Eclipse Sightings.
+  - Eclipse_Cities_Totality.csv
+  - Eclipse_Cities_Totality.geojson
+  - Eclipse_Cities_Totality.json
+  - cleaned_TotalE_Duration.csv
+  - cleaned_TotalE_Duration.json
+  - cleaned_TotalE_Duration.xlsx
+  - eclipse-background-2.png
+  - eclipse-background.jpg
+  - logic.js   <-- This is the main Javascript file that gives functionality to our HTML
+  - style.css   <-- This is the css file that styles our HTML
+ 
+- working_files Directory:
+  - DurationPlots.js <-- Javascript that contains the Bar Plot, that we later incorporated to the logic.js file
+  - durationIndex.html <-- HTML to test out the Bar Plot from this directory.
+ 
+- Eclipse_Totality_Duration_csvtojson.ipynb
+- index.html
 
 ----------------------------------
 Instructions
 ----------------------------------
-For Project 1, you will work with your group to find and analyze a dataset of your choice.
 
-Requirements
-An overview of the project and its purpose
-Instructions on how to use and interact with the project
-At least one paragraph summarizing efforts for ethical considerations made in the project
-Reference for the data source(s)
-References for any code used that is not your own
-
-
-- Completed Analysis Uploaded to GitHub 
-- Final data analysis contains ample and complete information in README file 
-- Final repository is acceptable for professional quality presentation 
-
-Visualizations 
-- 6–8 visualizations of data (at least two per question) 
-- Clear and accurate labeling of images 
-- Visualizations supported with ample and precise explanation 
-
-Analysis and Conclusion
-- Write-up summarizes major findings and implications at a professional level 
-- Each question in the project proposal is answered with precise descriptions and findings 
-- Findings are strongly supported with numbers and visualizations 
-- Each question response is supported with a well-discerned statistical analysis from lessons
-
-Group Presentation
-- All group members spoke during the presentation
-- Group was well prepared
-- Presentation is relevant to material
-- Presentation maintains audience interest
-
-Slide Deck
-- Slides are visually clean and professional
-- Slides are relevant to material
-- Slides effectively demonstrate the project
-- Slides are clear and maintain audience interest
 
 ------------------------------------
 References
 ------------------------------------
-An overview of the project and its purpose
-Instructions on how to use and interact with the project
-At least one paragraph summarizing efforts for ethical considerations made in the project
-References for the data source(s)
-https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html
-https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=2.799727%2C0.000000%2C1.45
-References for any code used that is not your own
 
---------------------------------------------------
-
-Data Resources
-
-References for the data source(s)
-https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html
-https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=2.799727%2C0.000000%2C1.45
-
-https://time.com/6963403/solar-eclipse-2024-surprising-facts/
-https://www.astronomy.com/observing/25-facts-you-should-know-about-the-total-solar-eclipse-on-april-8-2024/
-
-References for any code used that is not your own
+**References for the data source(s):**
 
 
-Image Resources
+**References for code:**
+- To convert datetime using pd.to_datetime on the Jupyter Notebook "Cleanning_Ttl_E_duration.ipynb":
+  - https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
+  - https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.to_datetime.html
+- For the format and referencing %Z
+  - https://www.educative.io/answers/what-is-the-pandastodatetime-method
 
+- For calculateDurationMMSS function in the logic.js file, to calculate the duration of the eclipse and transform that value into a MM:SS format:
+  - https://stackoverflow.com/questions/17624335/converting-milliseconds-to-minutes-and-seconds
+  - https://stackoverflow.com/questions/15493521/how-do-i-calculate-a-duration-time
+  - https://www.geeksforgeeks.org/how-to-measure-time-taken-by-a-function-to-execute-using-javascript/
+  - https://stackoverflow.com/questions/13894632/get-time-difference-between-two-dates-in-seconds
 
+- For the fetch() method in the logic.js file:
+  - https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example
+  - https://learnjavascript.online/topics/fetch.html
+
+**Image Resources:**
+  -
+  -
+  -
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
