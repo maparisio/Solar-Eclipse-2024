@@ -59,7 +59,7 @@ Instructions
 ----------------------------------
 Data Visualization Track
 1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
-2. ????Data must be stored in and extracted from at leaset one database. (PostgreSQL, MongoDB, SQLite, etc).
+2. ????Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc).
 3. The project must include at least one JavaScript or Python library that we did not cover. We used the video.js library to incorporate a relevant video to our project.
 4. The project must be powered by a dataset with at least 100 records. Our datasets are: Cities_Outside_Totality.geojson, and Eclipse_Cities_Totality.geojson
 5. The project must include some level of user-driven interaction, such as:
