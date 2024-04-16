@@ -38,6 +38,7 @@ section {
   font-size: 300%;
   text-align: center;
   color: yellow;
+  stroke: 2px;
   background-color: rgba(0,0,0,.6);
   padding: 50px;
   margin-bottom: 50px;
