@@ -7,6 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Solar Eclipse 2024</title>
 
+  <!-- !!!CHART2 Dependencies- Percentage of States with Total Eclipse Viewing to add to HTML by Haley-->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -39,6 +43,7 @@
     <div id="map"></div>
   </section>
 
+  <!-- The div that holds The Bar Chart -->
   <div id="chart1"></div>
 
   <div id="chart1p">
@@ -60,25 +65,24 @@
       mi, ut bibendum ex pretium quis. Fusce eu tellus sapien.</p>
   </div>
 
+  <!-- !!!!!! The div that holds the Pie Chart -->
   <div id="chart2"></div>
+    
+    <script type="text/javascript" src="static/logic.js"></script>
 
   <div id="chart2p">
-    <h2>TEST</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Maecenas nec tincidunt quam. Aliquam erat volutpat.
-      Morbi vitae erat justo. Nullam dapibus scelerisque eros,
-      nec mollis elit rutrum a. Curabitur vel dapibus erat.
-      Aenean volutpat quam sit amet diam vulputate, non
-      facilisis ante rutrum. Ut justo ipsum, egestas id
-      ultrices in, dignissim vel odio. Nullam posuere,
-      nisl ac pharetra gravida, nisi ligula blandit justo,
-      non pellentesque ligula massa id dolor. Integer
-      maximus metus dui, et cursus tortor cursus nec.
-      Etiam viverra neque at convallis egestas. Nulla
-      at accumsan ante. Quisque at laoreet mi, porta
-      semper ex. In eros mauris, consequat vitae dictum
-      vel, ullamcorper eu diam. Nullam porttitor efficitur
-      mi, ut bibendum ex pretium quis. Fusce eu tellus sapien.</p>
+      <h3>States with Total Eclipse Viewings</h3>
+      <p>'Texas', 'Oklahoma', 'Arkansas', 'Missouri', 'Kentucky', 'Illinois', 'Indiana', 'Ohio', 'Michigan', 'Pennsylvania', 'New York', 'Vermont', 'Maine'</p>
+      <h3>States with only Partial Eclipse Viewings</h3>
+      <p>'Alabama', 'Alaska', 'Arizona', 'California',
+          'Colorado', 'Connecticut', 'Delaware', 'Florida',
+          'Georgia', 'Hawaii', 'Idaho', 'Iowa', 'Kansas', 'Louisiana',
+          'Maryland', 'Massachusetts', 'Minnesota', 'Mississippi', 'Montana',
+          'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico',
+          'North Carolina', 'North Dakota', 'Oregon', 'Rhode Island',
+          'South Carolina', 'South Dakota', 'Tennessee', 'Utah',
+          'Virginia', 'Washington', 'West Virginia', 'Wisconsin',
+          'Wyoming'</p>
   </div>
 
   <!-- Leaflet JS -->
@@ -91,8 +95,9 @@
   <script type="text/javascript" src="static/logic.js"></script>
 
 <!-- !!!Our JavaScript Need these two, to be added to HTML by Haley-->
-  <script type="text/javascript" src="static/Cities_Outside_Totality.geojson"></script>
-  <script type="text/javascript" src="static/Eclipse_Cities_Totality.geojson"></script>
+ <script type="text/javascript" src="static/Cities_Outside_Totality.geojson"></script>
+ <script type="text/javascript" src="static/Eclipse_Cities_Totality.geojson"></script>
+ <script type="text/javascript" src="static/cleaned_TotalE_Duration.json"></script>
 
 
   <div id="video-intro">
