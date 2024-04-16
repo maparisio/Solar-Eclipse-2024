@@ -121,7 +121,8 @@ References for the data source(s)
 https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html
 https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=2.799727%2C0.000000%2C1.45
 
-
+https://time.com/6963403/solar-eclipse-2024-surprising-facts/
+https://www.astronomy.com/observing/25-facts-you-should-know-about-the-total-solar-eclipse-on-april-8-2024/
 
 References for any code used that is not your own
 
