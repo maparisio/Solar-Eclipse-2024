@@ -112,7 +112,7 @@ References
 
 **Image Resources:**
   - Bonus Video in HTML, from NASA: https://images.nasa.gov/details/GSFC_20240408_Solar_Eclipse_Telescopes
-  -
+  - NASA's 2017 vs 2024 Total Eclipse trayectory image: https://science.nasa.gov/solar-system/skywatching/how-is-the-2024-total-solar-eclipse-different-than-the-2017-eclipse/
   -
 
 -----------------------------------------------------------------------------------------------------------------------
