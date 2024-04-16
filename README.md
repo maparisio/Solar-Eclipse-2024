@@ -41,17 +41,8 @@ Content of the repository
 - rocket_usage_analysis.ipynb
 
 Resources Directory
-- Country_LatLon_Missions.csv (for the Missions_Over_Time.ipynb file)
-- Nasa_Budget_ConstantDlls.csv (for the Missions_Over_Time.ipynb file)
-- SpaceMissions_Merged.csv (Used for all of our analysis)
-- SpaceMission_cleanedLocFinal.csv (Used for the Final Space Mission Data.ipynb)
-- space_missions.csv (Original Dataset)
 
 Rocket-Usage-Output Directory (Images from the rocket_usage_analysis analysis)
-- Fail.png
-- Most-Missions.png
-- Success-Rate.png
-- Usage-Over-Time.png
 
 output_data Directory (Images from Space Mission Q1&2/SP_SuccessFailures_OT/Missions_Over_Time)
 - Fig1.png
@@ -107,32 +98,26 @@ Slide Deck
 ------------------------------------
 References
 ------------------------------------
+An overview of the project and its purpose
+Instructions on how to use and interact with the project
+At least one paragraph summarizing efforts for ethical considerations made in the project
+References for the data source(s)
+https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html
+https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=2.799727%2C0.000000%2C1.45
+References for any code used that is not your own
+
+--------------------------------------------------
 
 Data Resources
-- Source: Next Spaceflight, Retrieved from https://www.mavenanalytics.io/data-playground 
-- Space Race Timeline, Retrieved from https://www.history.com/topics/cold-war/space-race 
-- Astronauts explain why there hasn't been a human on the moon after 1972, Retrieved from https://www.businessinsider.com/moon-missions-why-astronauts-have-not-returned-2018-7?utm_source=copy-link&utm_medium=referral&utm_content=topbar 
-- To see major events from 1970-1980, just replace the last year value with the year to research: https://en.wikipedia.org/wiki/1980 
-- Information on Russia and Kazakhstan Space Missions, Retrieved from https://spacewatch.global/2018/04/kazakhstans-space-ambitions-hostage-russian-space-launchers-baikonur/ 
-- Resources on Kazakhstan, and the first missions to outer space, Retrieved from 
-https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Mission_Odissea_-_F._De_Winne_-_english/Baikonur_from_the_steppes_of_Kazakhstan_to_space 
-- Space Program of Kazakhstan, Retrieved from https://en.wikipedia.org/wiki/Category:Space_program_of_Kazakhstan 
-https://americasbesthistory.com/abhtimeline1980.html 
-- Blue Origin information, Retrieved from https://www.blueorigin.com/about-blue & https://en.wikipedia.org/wiki/Blue_Origin
-- Nasa's budget information, Retrieved from https://en.wikipedia.org/wiki/Budget_of_NASA
-- Encyclopedia of United States National Security  SAGE Publications. p. 669. Retrieved from https://us.sagepub.com/en-us/nam/encyclopedia-of-united-states-national-security/book226162
+
+References for the data source(s)
+https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html
+https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=2.799727%2C0.000000%2C1.45
+References for any code used that is not your own
+
 
 Image Resources
-- https://stock.adobe.com/ 
-- https://en.wikipedia.org/wiki/Space_Race
-- https://images.nasa.gov/ 
-- https://pixabay.com/photos/galaxy-star-infinity-cosmos-dark-3608029/ 
-- https://pixabay.com/photos/milky-way-human-lake-dreams-4500469/ 
-- https://www.loc.gov/resource/hhh.tx1107.photos/?sp=1 
-- https://pixabay.com/photos/astronaut-moon-space-nasa-planet-4106766/
-- https://space.skyrocket.de/doc_lau_det/kosmos-3m.htm 
-- https://www.flickr.com/photos/nasakennedy/49966772048/in/album-72157647244171004/ 
-- https://commons.wikimedia.org/wiki/User:Shujianyang 
-- https://en.wikipedia.org/wiki/Space_Shuttle_Discovery 
+
+
 
 
