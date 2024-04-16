@@ -68,6 +68,13 @@ Instructions
 For Project 1, you will work with your group to find and analyze a dataset of your choice.
 
 Requirements
+An overview of the project and its purpose
+Instructions on how to use and interact with the project
+At least one paragraph summarizing efforts for ethical considerations made in the project
+Reference for the data source(s)
+References for any code used that is not your own
+
+
 - Completed Analysis Uploaded to GitHub 
 - Final data analysis contains ample and complete information in README file 
 - Final repository is acceptable for professional quality presentation 
