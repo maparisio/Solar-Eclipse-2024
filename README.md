@@ -33,11 +33,11 @@ Content of the repository
 
 - static Directory:
   - Cities_Outside_Totality.csv
-  - Cities_Outside_Totality.geojson
+  - Cities_Outside_Totality.geojson  <-- Main data file used for the Partial Eclipse locations
   - Cities_Outisde_Totality.json
   - Cleanning_Ttl_E_duration.ipynb  <-- This file helped with calculation on the duration of the Total Eclipse and how many States had Total Eclipse Sightings.
   - Eclipse_Cities_Totality.csv
-  - Eclipse_Cities_Totality.geojson
+  - Eclipse_Cities_Totality.geojson <-- Main data file used for the Total Eclipse locations, duration calculations, average total eclipse duration, and percentage of US states that viewed the Total Eclipse vs Partial Eclipse.
   - Eclipse_Cities_Totality.json
   - cleaned_TotalE_Duration.csv
   - cleaned_TotalE_Duration.json
@@ -57,6 +57,25 @@ Content of the repository
 ----------------------------------
 Instructions
 ----------------------------------
+Data Visualization Track
+1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
+2. ????Data must be stored in and extracted from at leaset one database. (PostgreSQL, MongoDB, SQLite, etc).
+3. The project must include at least one JavaScript or Python library that we did not cover. We used the video.js library to incorporate a relevant video to our project.
+4. The project must be powered by a dataset with at least 100 records. Our datasets are: Cities_Outside_Totality.geojson, and Eclipse_Cities_Totality.geojson
+5. The project must include some level of user-driven interaction, such as:
+   * HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizations
+   * Visualizations created from user-selected filtered data, which could be powered by:
+       - JavaScript libraries: We created an interactive map, from which the user can choose to see the path of the Total Eclipse, or the whole area where only Partial Eclipse sightings were recorded. The user can also click on the markers of the Total Eclipse path, and find out what was the duration of the Total Eclipse per each of the cities in relation to the particular marker. The charts also allow the user to hover over, and view more information regarding the information within the charts.
+       - Python in Jupyter Notebook
+       - Command-line Python scripts that save visualizations locally
+6. If possible, your final visualizatoin should ideally include at least three views.
+7. The GitHub repo must include a ReadMe.md with an outline of the project including:
+  - An overview of the project and its purpose
+  - Instructions on how to use and interact with the project
+  - At least one paragraph summarizing efforts for ethical considerations made in the project
+  - References for the data source(s)
+  - References for any code used that is not your own
+
 
 
 ------------------------------------
