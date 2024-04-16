@@ -20,7 +20,7 @@ INDEX
 ---------------------------------
 Analysis & Slide Presentation
 ---------------------------------
-- ??Solar Ecliplse 04/08/2024 Analysis Report: LINK
+- Solar Ecliplse 04/08/2024 Analysis Report: [LINK](https://docs.google.com/document/d/1m08U9FMsaNvumiz8gsoPVDQ8De200gKRa6uuDsNZWaQ/edit?usp=sharing)
 - ??Presentation: LINK 
 
 ---------------------------------
@@ -57,11 +57,16 @@ Content of the repository
 ----------------------------------
 Instructions
 ----------------------------------
+### How to use this repository
+1. Click on the link to the live website to access the interactive map and charts.
+   - Select the layer of eclipse path you want to view: Partial or Total. Have fun changing the style of the map from street map to topography view. Hover over the markers(circles) on the total eclipse path, to see the city, state, and duration time for that particular marker.
+   - Hover over the charts on the live website to discover more information regarding the particular chart.
+   - If you missed the eclipse, or want to relive the experience, don't forget to play the bonus video below the charts.
 
+2. To review our cleaning process, analysis, and the code used to create the interactive website, refer to the files within the repository. The 'Content of the repository' section can guide you through the different files we used and created.
 
-
-
-### Requirements for the Data Visualization Track
+### We were given the option to create this project following the Data Visualization Track, or Data Engineering Track. We chose the Visualizatoin track.
+## Requirements for the Data Visualization Track
 1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
 2. ????Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc).
 3. The project must include at least one JavaScript or Python library that we did not cover. We used the video.js library to incorporate a relevant video to our project.
