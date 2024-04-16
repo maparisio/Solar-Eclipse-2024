@@ -57,7 +57,11 @@ Content of the repository
 ----------------------------------
 Instructions
 ----------------------------------
-Data Visualization Track
+
+
+
+
+### Requirements for the Data Visualization Track
 1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
 2. ????Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc).
 3. The project must include at least one JavaScript or Python library that we did not cover. We used the video.js library to incorporate a relevant video to our project.
@@ -101,9 +105,13 @@ References
 - For the fetch() method in the logic.js file:
   - https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example
   - https://learnjavascript.online/topics/fetch.html
+ 
+- Using Video.JS JavaScript library not during class:
+  - https://videojs.com  <-- documentation
+  - https://www.youtube.com/watch?v=h-I3R2JOMsI&list=PL35wCmDeuf0-9CnIZzgdDT1NCY8rYDEGv&index=13 <-- code implementation
 
 **Image Resources:**
-  -
+  - Bonus Video in HTML, from NASA: https://images.nasa.gov/details/GSFC_20240408_Solar_Eclipse_Telescopes
   -
   -
 
