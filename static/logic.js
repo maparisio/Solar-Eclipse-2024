@@ -147,13 +147,13 @@ Plotly.newPlot("chart1", data, layout);
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Assign variables for the content and creation of the plot
 const totalStates = 50;
-const totalEclipseStates = 13;
+const totalEclipseStates = 14;
 const partialEclipseStates = totalStates - totalEclipseStates;
 // Calculate percentages
 const totalEclipsePercentage = (totalEclipseStates / totalStates) * 100;
 const partialEclipsePercentage = 100 - totalEclipsePercentage;
-let PartialStates = ['Alabama', 'Alaska', 'Arizona', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Iowa', 'Kansas', 'Louisiana', 'Maryland', 'Massachusetts', 'Minnesota', 'Mississippi', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'North Carolina', 'North Dakota', 'Oregon', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Utah', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
-let TotalStates = ['Texas', 'Oklahoma', 'Arkansas', 'Missouri', 'Kentucky', 'Illinois', 'Indiana', 'Ohio', 'Michigan', 'Pennsylvania', 'New York', 'Vermont', 'Maine']
+let PartialStates = ['Alabama', 'Alaska', 'Arizona', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Iowa', 'Kansas', 'Louisiana', 'Maryland', 'Massachusetts', 'Minnesota', 'Mississippi', 'Montana', 'Nebraska', 'Nevada', 'New Jersey', 'New Mexico', 'North Carolina', 'North Dakota', 'Oregon', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Utah', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
+let TotalStates = ['Texas', 'Oklahoma', 'Arkansas', 'Missouri', 'Kentucky', 'Illinois', 'Indiana', 'Ohio', 'Michigan', 'Pennsylvania', 'New York', 'Vermont', 'New Hampshire', 'Maine']
 function PieChart() {
     // Construct hover text with state names and percentages
     let totalHoverText = `${totalEclipsePercentage}%<br>State Names:<br>${TotalStates.join('<br>')}`;
