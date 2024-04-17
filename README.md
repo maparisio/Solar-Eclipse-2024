@@ -1,8 +1,16 @@
-# Solar-Eclipse-2024
-Project 3
+<h1 align="center">DU - University of Denver<br/>
+Data Analysis & Visualization Bootcamp<br/></h1>
+
 --------------------------------
-- By M. Aparisio, H. Heer, M. Smith & L. Vara
---------------------------------
+
+<h2 align="center">Group Project 3:<br/>
+<br/>
+By M. Aparisio, H. Heer, M. Smith & L. Vara</h2><br/>
+
+
+![SolarEclipseThumbImage](https://github.com/maparisio/Solar-Eclipse-2024/assets/152572519/3150433d-7f5f-4f8d-bdb7-917b7c1af124)
+
+
 
 Note: It is important that if you are going to use this code, all files
 are placed in a directory that matches this repository, for the better functionality of it.
@@ -20,7 +28,7 @@ INDEX
 ---------------------------------
 Analysis & Slide Presentation
 ---------------------------------
-- Solar Ecliplse 04/08/2024 Analysis Report: [LINK](https://docs.google.com/document/d/1m08U9FMsaNvumiz8gsoPVDQ8De200gKRa6uuDsNZWaQ/edit?usp=sharing)
+- Solar Ecliplse 04/08/2024 Analysis Report: https://docs.google.com/document/d/1m08U9FMsaNvumiz8gsoPVDQ8De200gKRa6uuDsNZWaQ/edit?usp=sharing
 - ??Presentation: LINK 
 
 ---------------------------------
@@ -68,7 +76,7 @@ Instructions
 ### We were given the option to create this project following the Data Visualization Track, or Data Engineering Track. We chose the Visualizatoin track.
 ## Requirements for the Data Visualization Track
 1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
-2. ????Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc).
+2. Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc). We have ours in the Jupyter Notebook files.
 3. The project must include at least one JavaScript or Python library that we did not cover. We used the video.js library to incorporate a relevant video to our project.
 4. The project must be powered by a dataset with at least 100 records. Our datasets are: Cities_Outside_Totality.geojson, and Eclipse_Cities_Totality.geojson
 5. The project must include some level of user-driven interaction, such as:
@@ -118,7 +126,7 @@ References
 **Image Resources:**
   - Bonus Video in HTML, from NASA: https://images.nasa.gov/details/GSFC_20240408_Solar_Eclipse_Telescopes
   - NASA's 2017 vs 2024 Total Eclipse trayectory image: https://science.nasa.gov/solar-system/skywatching/how-is-the-2024-total-solar-eclipse-different-than-the-2017-eclipse/
-  -
+  - Thumbnail Solar Eclipse Image: https://pixabay.com/illustrations/ai-generated-eclipse-solar-eclipse-8688061/
 
 -----------------------------------------------------------------------------------------------------------------------
 
