@@ -41,7 +41,7 @@ Content of the repository
 
 - static Directory:
   - Cities_Outside_Totality.csv
-  - Cities_Outside_Totality.geojson  <-- Main data file used for the Partial Eclipse locations
+  - Cities_Outside_Totality.geojson  <-- Main data file used for the Partial Eclipse locations.
   - Cities_Outisde_Totality.json
   - Cleanning_Ttl_E_duration.ipynb  <-- This file helped with calculation on the duration of the Total Eclipse and how many States had Total Eclipse Sightings.
   - Eclipse_Cities_Totality.csv
@@ -52,14 +52,14 @@ Content of the repository
   - cleaned_TotalE_Duration.xlsx
   - eclipse-background-2.png
   - eclipse-background.jpg
-  - logic.js   <-- This is the main Javascript file that gives functionality to our HTML
-  - style.css   <-- This is the css file that styles our HTML
+  - logic.js   <-- This is the main Javascript file that gives functionality to our HTML.
+  - style.css   <-- This is the css file that styles our HTML.
  
 - working_files Directory:
-  - DurationPlots.js <-- Javascript that contains the Bar Plot, that we later incorporated to the logic.js file
+  - DurationPlots.js <-- Javascript that contains the Bar Plot, that we later incorporated to the logic.js file.
   - durationIndex.html <-- HTML to test out the Bar Plot from this directory.
  
-- Eclipse_Totality_Duration_csvtojson.ipynb
+- Eclipse_Totality_Duration_csvtojson.ipynb <-- Jupyter Notebook to extract duration of total eclipse and convert the dataset into CSV and JSON files for availability.
 - index.html
 
 ----------------------------------
