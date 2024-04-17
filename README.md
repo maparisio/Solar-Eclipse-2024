@@ -73,7 +73,7 @@ Instructions
 
 2. To review our cleaning process, analysis, and the code used to create the interactive website, refer to the files within the repository. The 'Content of the repository' section can guide you through the different files we used and created.
 
-### We were given the option to create this project following the Data Visualization Track, or Data Engineering Track. We chose the Visualizatoin track.
+### We were given the option to create this project following the Data Visualization Track, or Data Engineering Track. We chose the Visualization track.
 ## Requirements for the Data Visualization Track
 1. The project must include visualizations. We opted for Javascript by using the Plotly and Leaflet libraries.
 2. Data must be stored in and extracted from at least one database. (PostgreSQL, MongoDB, SQLite, etc). We have ours in the Jupyter Notebook files.
