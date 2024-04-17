@@ -65,23 +65,21 @@ section {
 }
 
 .chart {
-  height: 1000px;}
+  height: 1250px;}
 
 #chart1 {
-  float: left;
-  height: 300px;
-  margin-left: 5%;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 50px;
 }
 
 #chart1p {
-  float: right;
-  height: 300px;
-  margin-right: 5%;
-  margin-top: 0px;
-  width: 45%;
+  margin-top: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #chart2 {
@@ -95,7 +93,7 @@ section {
   float: left;
   height: 300px;
   margin-left: 5%;
-  margin-top: 150px;
+  margin-top: 50px;
   width: 45%;
 }
 
@@ -106,9 +104,10 @@ section {
 }
 
 video {
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-top: 30px;
 }
 
 .videojs-background-wrap {
