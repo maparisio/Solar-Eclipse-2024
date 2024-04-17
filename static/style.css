@@ -54,7 +54,7 @@ section {
 
 #map {
   height: 800px;
-  width: 1280px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,7 +72,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  max-width: 90% !important;
   margin-top: 50px;
 }
 
@@ -87,15 +87,16 @@ section {
   float: right;
   height: 300px;
   margin-top: 50px;
-  width: 45%;
+  margin-right: 2%;
+  width: 60%;
 }
 
 #chart2p {
   float: left;
   height: 300px;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-top: 50px;
-  width: 45%;
+  width: 30%;
 }
 
 #video-intro {
