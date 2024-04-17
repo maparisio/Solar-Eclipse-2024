@@ -121,6 +121,9 @@ References
 - Using Video.JS JavaScript library not learned during class:
   - https://videojs.com  <-- documentation
   - https://www.youtube.com/watch?v=h-I3R2JOMsI&list=PL35wCmDeuf0-9CnIZzgdDT1NCY8rYDEGv&index=13 <-- code implementation
+ 
+- Colors for use in HTML/CSS/JavaScript:
+  - https://www.unm.edu/~tbeach/IT145/color.html
 
 **Image Resources:**
   - Bonus Video in HTML, from NASA: https://images.nasa.gov/details/GSFC_20240408_Solar_Eclipse_Telescopes
