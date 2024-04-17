@@ -47,8 +47,9 @@ section {
 #opening {
   text-align: center;
   padding: 30px;
-  margin: 0;
-  background-color: rgba(0,0,0,.6);
+  margin-left:10%;
+  margin-right:10%;
+  width: 80%;
 }
 
 #map {
@@ -65,13 +66,13 @@ section {
 }
 
 .chart {
-  height: 1250px;}
+  height: 1550px;}
 
 #chart1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 500px;
   margin-top: 50px;
 }
 
