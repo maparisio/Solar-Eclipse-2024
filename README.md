@@ -60,7 +60,7 @@ Content of the repository
   - durationIndex.html <-- HTML to test out the Bar Plot from this directory.
  
 - Eclipse_Totality_Duration_csvtojson.ipynb <-- Jupyter Notebook to extract duration of total eclipse and convert the dataset into CSV and JSON files for availability.
-- index.html
+- index.html  <-- This is the main HTML file that contains the code to work in conjunction with the style.css and logic.js files in the 'static' directory.
 
 ----------------------------------
 Instructions
@@ -94,13 +94,12 @@ Instructions
   - References for any code used that is not your own
 
 
-
 ------------------------------------
 References
 ------------------------------------
 
 **References for the data source(s):**
-
+- Data sets obtained from the NOAA GeoPlatform: https://noaa.hub.arcgis.com/datasets/noaa::upath-lo-1/explore?location=16.020909%2C100.704375%2C3.27
 
 **References for code:**
 - To convert datetime using pd.to_datetime on the Jupyter Notebook "Cleanning_Ttl_E_duration.ipynb":
@@ -119,15 +118,18 @@ References
   - https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example
   - https://learnjavascript.online/topics/fetch.html
  
-- Using Video.JS JavaScript library not during class:
+- Using Video.JS JavaScript library not learned during class:
   - https://videojs.com  <-- documentation
   - https://www.youtube.com/watch?v=h-I3R2JOMsI&list=PL35wCmDeuf0-9CnIZzgdDT1NCY8rYDEGv&index=13 <-- code implementation
 
 **Image Resources:**
   - Bonus Video in HTML, from NASA: https://images.nasa.gov/details/GSFC_20240408_Solar_Eclipse_Telescopes
+  - Eclipse viewing experience at Indianapolis Motor Speedway https://www.youtube.com/watch?v=_xOwXFCyYyA&t=48s
   - NASA's 2017 vs 2024 Total Eclipse trayectory image: https://science.nasa.gov/solar-system/skywatching/how-is-the-2024-total-solar-eclipse-different-than-the-2017-eclipse/
   - Thumbnail Solar Eclipse Image: https://pixabay.com/illustrations/ai-generated-eclipse-solar-eclipse-8688061/
   - What is a solar eclipse? https://spaceplace.nasa.gov/eclipse-snap/en/
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------
 
