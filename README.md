@@ -131,6 +131,11 @@ References
   - NASA's 2017 vs 2024 Total Eclipse trayectory image: https://science.nasa.gov/solar-system/skywatching/how-is-the-2024-total-solar-eclipse-different-than-the-2017-eclipse/
   - Thumbnail Solar Eclipse Image: https://pixabay.com/illustrations/ai-generated-eclipse-solar-eclipse-8688061/
   - What is a solar eclipse? https://spaceplace.nasa.gov/eclipse-snap/en/
+  - Parisian Ladies watching a solar eclipse: https://picryl.com/media/agence-rol-leclipse-gare-saint-lazare-1921-8a6b73 
+  - Johann Christian Schoeller’s Painting(1842): https://sammlung.wienmuseum.at/en/object/418541-sonnenfinsternis-8-juli-1842/ 
+  - Solar Eclipse GIF: https://earthstoriez.com/china-eclipse-history-mythology 
+  - Albert Einstein’s Fun Fact: https://www.britannica.com/story/the-solar-eclipse-that-made-albert-einstein-a-science-celebrity 
+  - Albert Einstein’s images were created with AI via: https://creator.nightcafe.studio/
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
