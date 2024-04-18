@@ -29,7 +29,7 @@ INDEX
 Analysis & Slide Presentation
 ---------------------------------
 - Solar Ecliplse 04/08/2024 Analysis Report: https://docs.google.com/document/d/1m08U9FMsaNvumiz8gsoPVDQ8De200gKRa6uuDsNZWaQ/edit?usp=sharing
-- ??Presentation: LINK 
+- Slide Presentation: https://docs.google.com/presentation/d/1nTYiay8nRMGv-8KxnFpeis3CH9dBo60PpRAvx-vJB7Y/edit?usp=sharing
 
 ---------------------------------
 Content of the repository
